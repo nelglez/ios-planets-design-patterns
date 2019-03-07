@@ -9,7 +9,7 @@
 import Foundation
 
 class PlanetController {
-    //Facade pattern
+    //Facade pattern: hide complexity. We have been using it this whole time
     //Computer property takes care of figuring out whether pluto should be included or not. This way, nothing else in the app has to figure it out.
     var planets: [Planet] {
         var planets =  [
